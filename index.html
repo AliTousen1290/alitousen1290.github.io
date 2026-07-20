@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechSecure | Technology & Cyber Security</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0b0f19;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    background:#111827;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00d9ff;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00d9ff;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
+    url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#00d9ff;
+}
+
+.hero p{
+    width:70%;
+    max-width:700px;
+    margin-bottom:30px;
+    font-size:20px;
+}
+
+.btn{
+    background:#00d9ff;
+    color:#111;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:40px;
+    color:#00d9ff;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1b2435;
+    padding:30px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(0,217,255,.4);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#00d9ff;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+    font-size:18px;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:15px;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.hero p{
+    width:90%;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">TechSecure</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Technology</a>
+<a href="#">Cyber Security</a>
+<a href="#">Tutorials</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Welcome to <span>TechSecure</span></h1>
+
+<p>
+Learn the latest in Technology, Ethical Hacking, Artificial Intelligence,
+Networking, Digital Privacy, and Cyber Security through easy tutorials,
+news, and practical guides.
+</p>
+
+<a href="#" class="btn">Explore More</a>
+
+</section>
+
+<section>
+
+<h2 class="section-title">What We Cover</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💻 Technology</h3>
+<p>
+Discover modern technologies including AI, Cloud Computing,
+Programming, Software Development, Networking, and the latest gadgets.
+</p>
+</div>
+
+<div class="card">
+<h3>🛡 Cyber Security</h3>
+<p>
+Learn how to defend against hackers, phishing attacks,
+malware, ransomware, and protect your personal information online.
+</p>
+</div>
+
+<div class="card">
+<h3>🔐 Ethical Hacking</h3>
+<p>
+Understand penetration testing, vulnerability assessment,
+Linux tools, Kali Linux, and cybersecurity best practices.
+</p>
+</div>
+
+<div class="card">
+<h3>🌐 Networking</h3>
+<p>
+Master computer networking concepts including TCP/IP,
+DNS, Firewalls, VPNs, Routing, and Switching.
+</p>
+</div>
+
+<div class="card">
+<h3>📚 Tutorials</h3>
+<p>
+Step-by-step beginner-friendly tutorials covering
+Windows, Linux, Programming, and Security tools.
+</p>
+</div>
+
+<div class="card">
+<h3>🚀 Latest News</h3>
+<p>
+Stay updated with the latest technology innovations,
+security threats, software releases, and industry trends.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">About TechSecure</h2>
+
+<div class="about">
+
+<p>
+Technology is changing the world at an incredible pace, while cyber
+threats continue to grow every day. Our mission is to educate students,
+professionals, and technology enthusiasts by providing high-quality
+articles, tutorials, and practical cybersecurity knowledge.
+</p>
+
+<br>
+
+<p>
+Whether you're just beginning your journey or are an experienced IT
+professional, TechSecure is your trusted resource for learning,
+innovation, and staying safe in the digital world.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+</p>
+
+</footer>
+
+</body>
+</html>
